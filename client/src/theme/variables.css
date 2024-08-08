@@ -1,0 +1,5 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

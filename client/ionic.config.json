@@ -1,0 +1,7 @@
+{
+  "name": "technicien",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
