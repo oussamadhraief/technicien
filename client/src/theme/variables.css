@@ -3,3 +3,58 @@ http://ionicframework.com/docs/theming/ */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+:host {
+  --ion-background-color: #ffffff !important;
+    --ion-text-color: #000000 !important;
+    --ion-item-background: var(--ion-background-color);
+    --ion-card-background: var(--ion-background-color);
+    --ion-input-background: var(--ion-background-color);
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-tab-bar-background: var(--ion-background-color);
+}
+
+:root {
+    --ion-background-color: #ffffff !important;
+    --ion-text-color: #000000 !important;
+  
+    /* Ensure components inherit the correct background and text color */
+    --ion-item-background: var(--ion-background-color);
+    --ion-card-background: var(--ion-background-color);
+    --ion-input-background: var(--ion-background-color);
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-tab-bar-background: var(--ion-background-color);
+  }
+  
+  body, ion-content, ion-item, ion-card, ion-input, ion-toolbar, ion-tab-bar {
+    --ion-background-color: #ffffff !important;
+    --ion-text-color: #000000 !important;
+    --ion-item-background: var(--ion-background-color);
+    --ion-card-background: var(--ion-background-color);
+    --ion-input-background: var(--ion-background-color);
+    --ion-toolbar-background: var(--ion-background-color);
+    --ion-tab-bar-background: var(--ion-background-color);
+    background-color: var(--ion-background-color);
+    color: var(--ion-text-color);
+  }
+  
+  /* Ensure that input fields have the correct background color */
+  ion-input, input {
+    --ion-background-color: #ffffff;
+    --ion-text-color: #000000;
+    background-color: var(--ion-background-color);
+    color: var(--ion-text-color);
+  }
+  
+ /* Global override for all <a> tags inside elements styled by DevExtreme */
+.dx-theme-generic-typography a {
+  color: inherit !important; /* Override the DevExtreme link color */
+  text-decoration: none !important; /* Remove underline if DevExtreme adds it */
+}
+
+.toolbar-container {
+  background-color: #ffffff !important;
+}
+
+  
+  
